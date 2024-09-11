@@ -23,6 +23,7 @@ class MyFirstApp extends StatelessWidget {
               height: 250,
               width: 450,
               decoration: const BoxDecoration(
+                color: Color(0xffb022b87),
                 image: DecorationImage(
                   image: AssetImage('images/facebook_back.png'),
                   fit: BoxFit.fill,
