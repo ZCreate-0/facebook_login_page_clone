@@ -3,9 +3,9 @@
 ### In this project i focused on UI design.
 ### This project aims to create a login screen similar to Facebook login page using Flutter widgets and UI components.
 ## INFO
-### The images folder contain the facebook back image i cut it from the reference and add some edit to it
-### The ref folder contain the reference image that i colned UI from it
-### Facebook icon data from flutter library
+### The "images" folder contains the Facebook background image that I cropped from the reference and made some edits to.
+### The "ref" folder contains the reference image from which I cloned the UI.
+### The Facebook icon data is from the Flutter library.
 
 
 
