@@ -1,0 +1,59 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --start-paused -d edge --devtools-server-address http://127.0.0.1:9100/ --target E:\MEDIA\FILES\COURSES & INTERSHIPS\PROGRAMMING\FLUTTER MOBILE DEV\PROJECTS\Flutter_Apps\First_App\hello_flutter\lib\main.dart
+
+## exception
+
+HttpException: HttpException: Connection closed before full header was received, uri = http://localhost:61306/devtools/page/A44F8B1860AA3EB5BC859DD473E33DF2
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.24.2, on Microsoft Windows [Version 10.0.22631.4112], locale en-US)
+    • Flutter version 3.24.2 on channel stable at C:\dev\flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 4cf269e36d (7 days ago), 2024-09-03 14:30:00 -0700
+    • Engine revision a6bd3f1de1
+    • Dart version 3.5.2
+    • DevTools version 2.37.2
+
+[✓] Windows Version (Installed version of Windows is version 10 or higher)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 35.0.0)
+    • Android SDK at C:\Users\ziade\AppData\Local\Android\sdk
+    • Platform android-35, build-tools 35.0.0
+    • Java binary at: C:\Program Files\Android\Android Studio\jbr\bin\java
+    • Java version OpenJDK Runtime Environment (build 17.0.11+0--11852314)
+    • All Android licenses accepted.
+
+[✗] Chrome - develop for the web (Cannot find Chrome executable at .\Google\Chrome\Application\chrome.exe)
+    ! Cannot find Chrome. Try setting CHROME_EXECUTABLE to a Chrome executable.
+
+[✗] Visual Studio - develop Windows apps
+    ✗ Visual Studio not installed; this is necessary to develop Windows apps.
+      Download at https://visualstudio.microsoft.com/downloads/.
+      Please install the "Desktop development with C++" workload, including all of its default components
+
+[✓] Android Studio (version 2024.1)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 17.0.11+0--11852314)
+
+[✓] Connected device (2 available)
+    • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.22631.4112]
+    • Edge (web)        • edge    • web-javascript • Microsoft Edge 128.0.2739.67
+
+[✓] Network resources
+    • All expected network resources are available.
+
+! Doctor found issues in 2 categories.
+```
